@@ -36,8 +36,4 @@ public class Person {
     public String toString() {
         return name + " " + surname + " - " + age + " лет.";
     }
-
-    public int getWordsSurname(){
-        return getSurname().split(" ").length;
-    }
 }
